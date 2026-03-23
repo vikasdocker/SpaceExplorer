@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="card_bg">#E6050A18</color>
+    <color name="divider">#33FFFFFF</color>
+    <color name="ring_earth">#1AC8FF</color>
+    <color name="ring_mars">#FF4D1A</color>
+    <color name="ring_moon">#CCCCCC</color>
+    <color name="ring_sun">#FFCC1A</color>
+    <color name="space_black">#FF000005</color>
+    <color name="text_dim">#88FFFFFF</color>
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#CCFFFFFF</color>
+    <string name="app_name">Space Explorer</string>
+    <style name="Theme.SpaceExplorer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>
